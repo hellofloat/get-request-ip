@@ -1,6 +1,6 @@
 {
   "name": "get-request-ip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small, configurable module to get a request's IP address.",
   "main": "index.js",
   "scripts": {
