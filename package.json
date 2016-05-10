@@ -1,0 +1,57 @@
+{
+  "name": "get-request-ip",
+  "version": "1.0.0",
+  "description": "A small, configurable module to get a request's IP address.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellofloat/get-request-ip.git"
+  },
+  "keywords": [
+    "request",
+    "ip"
+  ],
+  "author": "Andy Burke <aburke@bitflood.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hellofloat/get-request-ip/issues"
+  },
+  "homepage": "https://github.com/hellofloat/get-request-ip#readme",
+  "devDependencies": {
+    "async": "^2.0.0-rc.4",
+    "express": "^4.13.4",
+    "restify": "^4.0.4",
+    "superagent": "^1.8.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "extend": "^3.0.0"
+  },
+  "jshintConfig": {
+    "curly": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "esnext": true,
+    "forin": true,
+    "freeze": true,
+    "futurehostile": true,
+    "latedef": "nofunc",
+    "maxcomplexity": 10,
+    "maxdepth": 3,
+    "maxparams": 4,
+    "maxstatements": 30,
+    "noarg": true,
+    "nocomma": true,
+    "node": true,
+    "nonbsp": true,
+    "nonew": true,
+    "singleGroups": true,
+    "strict": "global",
+    "undef": true,
+    "unused": true
+  }
+}
